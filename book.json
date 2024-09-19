@@ -1,13 +1,15 @@
 {
-  "plugins": ["page-feedback"],
-  "pluginsConfig": {
-    "page-feedback": {
-      "title": "Was this page helpful?",
-      "labels": {
-        "yes": "Yes",
-        "no": "No"
-      },
-      "feedbackUrl": "https://your-feedback-endpoint.com"
-    }
+  "plugins": ["theme-default"],
+  "pluginsConfig": {},
+  "styles": {
+    "website": "styles/feedback.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "variables": {
+    "javascript": [
+      "assets/feedback.js"
+    ]
   }
 }
